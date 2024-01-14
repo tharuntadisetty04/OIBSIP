@@ -1,0 +1,154 @@
+@font-face {
+    font-family: poppins;
+    src: url(/assets/fonts/Poppins-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins, Arial, sans-serif;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+body {
+    background: url(/assets/images/bg.png) no-repeat;
+    background-size: 100vw 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin: 1.4rem 0;
+    letter-spacing: .2rem;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* glass-morphism effect */
+.glass-morphism {
+    height: 30rem;
+    width: 34rem;
+    border-radius: 12px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.3);
+    border: 2px solid rgba(217, 217, 217, 0.5);
+    backdrop-filter: blur(14px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* converter form */
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 30rem;
+    width: 30rem;
+    padding: 0 3rem;
+    text-align: center;
+}
+
+label {
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+input[type="number"] {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: .2rem solid #00d4ff;
+    border-radius: .6rem;
+    text-align: center;
+    font-size: 1.1rem;
+    transition: all .3s ease;
+}
+
+input[type="number"]:focus {
+    border: .2rem solid #00d4ff;
+    background-color: #fda0b6;
+    text-align: center;
+}
+
+select {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    border-radius: .6rem;
+    text-align: center;
+    cursor: pointer;
+    border: .2rem solid #00d4ff;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.3rem;
+    margin-top: 1.2rem;
+}
+
+.buttons input {
+    width: 42%;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-color: #00d4ff;
+    border-radius: .6rem;
+    transition: all .3s ease;
+}
+
+.buttons input:hover {
+    background-color: #f78da7;
+    cursor: pointer;
+}
+
+.result-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#result {
+    border: .2rem solid #00d4ff;
+    font-size: 1.1rem;
+    padding: .5rem 0;
+    width: 90%;
+    background-color: #ffffff;
+    border-radius: .6rem;
+    cursor: not-allowed;
+}
+
+/* footer*/
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: 600;
+}
+
+/* responsiveness */
+@media (max-width:700px) and (min-width:426px) {
+
+    .glass-morphism,
+    form {
+        width: 24rem;
+    }
+}
+
+@media (max-width:426px) {
+
+    .glass-morphism,
+    form {
+        width: 20rem;
+    }
+}

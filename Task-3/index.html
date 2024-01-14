@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
+    <!-- title -->
+    <title>Temperature Converter</title>
+    <!-- css style sheet -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+    <h1>TEMPERATURE CONVERTER</h1>
+
+    <section>
+        <div class="glass-morphism">
+            <!-- converter form -->
+            <form id="tempForm">
+                <div class="input-section">
+                    <label for="temp">Enter temperature:</label>
+                    <input type="number" id="temp" required>
+                </div>
+
+
+                <div class="from-section">
+                    <label for="from">From :</label>
+                    <select id="from" required>
+                        <option value="default" disabled selected>Select a unit</option>
+                        <option value="celsius">Celsius (°C)</option>
+                        <option value="fahrenheit">Fahrenheit (°F)</option>
+                        <option value="kelvin">Kelvin (K)</option>
+                    </select>
+                </div>
+
+                <div class="to-section">
+                    <label for="to">To :</label>
+                    <select id="to" required>
+                        <option value="default" disabled selected>Select a unit</option>
+                        <option value="celsius">Celsius (°C)</option>
+                        <option value="fahrenheit">Fahrenheit (°F)</option>
+                        <option value="kelvin">Kelvin (K)</option>
+                    </select>
+                </div>
+
+                <div class="result-section">
+                    <div id="result">Result appears here</div>
+                </div>
+
+                <div class="buttons">
+                    <input type="submit" value="Convert">
+                    <input type="reset" value="Reset" class="reset-btn" id="reset-btn">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        Developed by Tharun | All rights reserved.
+    </footer>
+
+    <!-- js -->
+    <script src="/assets/js/script.js"></script>
+
+</body>
+
+</html>

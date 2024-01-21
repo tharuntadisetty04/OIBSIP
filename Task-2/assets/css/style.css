@@ -452,6 +452,7 @@ textarea:focus {
     border: 0.2rem solid #00ffff;
     border-radius: 50%;
     font-size: 1.8rem;
+    z-index:200;
     transition: 0.3s ease;
 }
 

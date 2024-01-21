@@ -1,6 +1,6 @@
 @font-face {
   font-family: montserrat;
-  src: url(/fonts/Montserrat-Regular.ttf);
+  src: url(../fonts/Montserrat-Regular.ttf);
 }
 
 * {
@@ -416,6 +416,10 @@ textarea:focus {
   font-weight: 600;
 }
 
+.footer-icon{
+  z-index:102;
+}
+
 .footer-icon a {
   display: inline-flex;
   justify-content: center;
@@ -424,7 +428,6 @@ textarea:focus {
   color: #f7444e;
   border: 0.2rem solid #f7444e;
   border-radius: 50%;
-  z-index:200;
   transition: 0.3s ease;
 }
 

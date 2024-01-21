@@ -1,6 +1,6 @@
 @font-face {
     font-family: poppins;
-    src: url(fonts/Poppins-Regular.ttf);
+    src: url(../fonts/Poppins-Regular.ttf);
 }
 
 * {
@@ -442,6 +442,10 @@ textarea:focus {
     font-size: 1.2rem;
 }
 
+.footer-icon{
+    z-index:102;
+}
+
 .footer-icon a {
     display: inline-flex;
     justify-content: center;
@@ -451,7 +455,6 @@ textarea:focus {
     border: 0.2rem solid #00ffff;
     border-radius: 50%;
     font-size: 1.8rem;
-    z-index:200;
     transition: 0.3s ease;
 }
 

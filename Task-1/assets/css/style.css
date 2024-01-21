@@ -424,6 +424,7 @@ textarea:focus {
   color: #f7444e;
   border: 0.2rem solid #f7444e;
   border-radius: 50%;
+  z-index:200;
   transition: 0.3s ease;
 }
 

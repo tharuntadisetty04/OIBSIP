@@ -1,7 +1,7 @@
 /* color palette = bg :#232E32  2nd-bg :#2C3F46  text:#f8f9fc  cta :#00FFFF */
 @font-face {
     font-family: poppins;
-    src: url(/assets/fonts/Poppins-Regular.ttf);
+    src: url(assets/fonts/Poppins-Regular.ttf);
 }
 
 * {
